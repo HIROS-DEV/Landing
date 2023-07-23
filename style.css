@@ -107,3 +107,35 @@ main {
     height: 250px;
     object-fit: cover;
 }
+
+section {
+    padding: 50px;
+}
+
+section h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.information img {
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.information p {
+    text-align: center;
+    margin-top: 5px;
+}
